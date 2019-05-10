@@ -1,20 +1,17 @@
 {
-  "name": "graphql-example",
+  "name": "context-api",
   "version": "1.0.0",
-  "description": "This repo demonstrates how to use functions for a GraphQL API using `apollo-server-lambda`.",
+  "description": "A GraphQL API using `apollo-server-lambda`.",
   "main": "index.js",
-  "scripts": {
-    "build": "cd functions && npm install"
+  "dependencies": {
+    "graphql": "^14.3.0",
+    "apollo-server-lambda": "^2.5.0",
+    "netlify-lambda": "^1.4.7"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/netlify-labs/functions-and-graphql.git"
+  "scripts": {
+    "build": "npm i"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/netlify-labs/functions-and-graphql/issues"
-  },
-  "homepage": "https://github.com/netlify-labs/functions-and-graphql#readme"
+  "license": "MIT"
 }

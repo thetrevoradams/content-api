@@ -1,5 +1,10 @@
 node_modules
 
+# production
+/build
+/built-lambda
 
 # Ignore netlify folder
 .netlify
+
+.env
