@@ -4,8 +4,10 @@
   "description": "A GraphQL API using `apollo-server-lambda`.",
   "main": "index.js",
   "dependencies": {
-    "graphql": "^14.3.0",
     "apollo-server-lambda": "^2.5.0",
+    "bufferutil": "^4.0.1",
+    "encoding": "^0.1.12",
+    "graphql": "^14.3.0",
     "netlify-lambda": "^1.4.7"
   },
   "scripts": {
