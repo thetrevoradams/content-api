@@ -9,7 +9,7 @@
     "netlify-lambda": "^1.4.7"
   },
   "scripts": {
-    "build": "npm i"
+    "build": "netlify-lambda build functions"
   },
   "keywords": [],
   "author": "",

@@ -1,5 +1,5 @@
-const { ApolloServer, gql } = require("apollo-server-lambda");
-const { Egghead } = require.resolve('./contentSources/egghead')
+import { ApolloServer, gql } from 'apollo-server-lambda'
+import { Egghead } from '../contentSources/egghead'
 
 const typeDefs = gql`
   type Content {
